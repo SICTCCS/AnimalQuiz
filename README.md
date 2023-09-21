@@ -26,6 +26,7 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
 
 - If you are on this page, you are caught up
 - Look to the right bottom corner, there will be an button with a image icon, hover over it and click (the upload file option) and change the backdrop to the image of the animal you want (use the animal images provided). <br>
+![ ](ImagesforMarkdown/uploadfile.png)
   <a href="ImagesforMarkdown/goat.PNG" download>Goat Background Download</a> | <a href="ImagesforMarkdown/sheep.PNG" download>Sheep Background Download</a> | <a href="ImagesforMarkdown/pig.PNG" download>Pig Background Download</a> | <a href="ImagesforMarkdown/Horse.png" download>Horse Background Download</a> | <a href="ImagesforMarkdown/dog.png" download>Dog Background Download</a> | <a href="ImagesforMarkdown/cat.png" download>Cat Background Download</a>
 - Make sure to transform the animal image to a reasonable size. Keeping in consideration we have to fit the buttons and question at the top.
 - Load up the Google Slides provided. This will allow you to know where exactly to move the buttons to and what to name them. <br>
