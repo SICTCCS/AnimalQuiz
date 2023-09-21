@@ -1,24 +1,22 @@
-# ExtAniAnat
-External Animal Anatomy Quiz Game
+# Animal Quiz Game
 
-
-# How to add more Animals
+## How to add more Animals
 This quiz was made using scratch. All of the core mechanics of the game are all built out and ready to be copy and pasted to the other animals.
 
 
-# **Step 1, Joining Scrach** <br>
+## **Step 1: Joining Scrach** <br>
 ---
-- Go to Scratch.com
+- Go to <a href="https://scratch.mit.edu">Scratch.com</a>
 - Click "Join Scratch" and create an account
 - Then, click this link to go to the [Scratch Project](https://scratch.mit.edu/projects/885605066)
 - Click the "See inside button" on the project page.<br>
 ![ ](ImagesforMarkdown/seeinside.png)
 - If you are signed into your account, there should be a remix button on the top of the page, click that to make a copy.<br>
 ![ ](ImagesforMarkdown/remix.png)
-- Congradulations! You made a copy of the project and are ready to start making your animal.
+- Congratulations! You made a copy of the project and are ready to start making your animal.
 
   
-# **Step 2, Setting up the Project** <br>
+## **Step 2: Setting up the Project** <br>
 ---
 - Open the remix file under the "My Stuff" section in your account.
 - Now that you are inside the file, look to the right side of the screen where it says "sprites"
@@ -41,7 +39,7 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
 - Change the text on each costume to the sprite names you chose, this will make the game ask the user the question of which sprite to click on.
 
 
-# **Step 3, Changing the Code** <br>
+## **Step 3: Changing the Code** <br>
 ---
 - Luckly for you, if you get confused with what the code does, I commented almost all of the code to tell you what it does. Before you change anything, I would recommend that you read my comments first.
 - Most of this code does NOT need to be touched, the only code you need to mess with is code that uses the variables: Points, Global CostumePicker, and Random Number.
@@ -55,7 +53,7 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
 - This should be it for coding.
 
 
-# **Step 4, Updating the Website** <br>
+## **Step 4: Updating the Website** <br>
 ---
 - The way that the vet students access this game is through a website we made, the scratch project is embeded into html through an iframe tag. If that sounds like a lot, don't worry, its just a lot of copying and pasting.
 - Go to this github [Repo](https://github.com/SICTCCS/AnimalQuiz), this is where the website is being hosted.
