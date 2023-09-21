@@ -4,7 +4,7 @@
 This quiz was made using scratch. All of the core mechanics of the game are all built out and ready to be copy and pasted to the other animals.
 
 
-## **Step 1: Joining Scrach** <br>
+## Step 1: Joining Scrach <br>
 ---
 - Go to <a href="https://scratch.mit.edu">Scratch.com</a>
 - Click "Join Scratch" and create an account
@@ -16,7 +16,7 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
 - Congratulations! You made a copy of the project and are ready to start making your animal.
 
   
-## **Step 2: Setting up the Project** <br>
+## Step 2: Setting up the Project <br>
 ---
 - Open the remix file under the "My Stuff" section in your account.
 - Now that you are inside the file, look to the right side of the screen where it says "sprites"
@@ -25,7 +25,7 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
 ![ ](ImagesforMarkdown/mainpage.png)
 
 - If you are on this page, you are caught up
-- Look to the right, there will be an button with a image icon, click it and change the backdrop to the image of the animal you want (use the animal images provided). <br>
+- Look to the right bottom corner, there will be an button with a image icon, hover over it and click (the upload file option) and change the backdrop to the image of the animal you want (use the animal images provided). <br>
   <a href="ImagesforMarkdown/goat.PNG" download>Goat Background Download</a> | <a href="ImagesforMarkdown/sheep.PNG" download>Sheep Background Download</a> | <a href="ImagesforMarkdown/pig.PNG" download>Pig Background Download</a> | <a href="ImagesforMarkdown/Horse.png" download>Horse Background Download</a> | <a href="ImagesforMarkdown/dog.png" download>Dog Background Download</a> | <a href="ImagesforMarkdown/cat.png" download>Cat Background Download</a>
 - Make sure to transform the animal image to a reasonable size. Keeping in consideration we have to fit the buttons and question at the top.
 - Load up the Google Slides provided. This will allow you to know where exactly to move the buttons to and what to name them. <br>
@@ -39,7 +39,7 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
 - Change the text on each costume to the sprite names you chose, this will make the game ask the user the question of which sprite to click on.
 
 
-## **Step 3: Changing the Code** <br>
+## Step 3: Changing the Code <br>
 ---
 - Luckly for you, if you get confused with what the code does, I commented almost all of the code to tell you what it does. Before you change anything, I would recommend that you read my comments first.
 - Most of this code does NOT need to be touched, the only code you need to mess with is code that uses the variables: Points, Global CostumePicker, and Random Number.
@@ -53,7 +53,7 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
 - This should be it for coding.
 
 
-## **Step 4: Updating the Website** <br>
+## Step 4: Updating the Website <br>
 ---
 - The way that the vet students access this game is through a website we made, the scratch project is embeded into html through an iframe tag. If that sounds like a lot, don't worry, its just a lot of copying and pasting.
 - Go to this github [Repo](https://github.com/SICTCCS/AnimalQuiz), this is where the website is being hosted.
