@@ -33,16 +33,16 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
   [Animals (Google Slides)](https://docs.google.com/presentation/d/1W9TLpBbRJW16OxwPiJRk59h7bLMFIbT_2sgsnoBHBMQ/edit?usp=sharing)
 - The buttons on the screen are draggable. Move them to the location of where your new animal's body parts are.<br>
 ![ ](ImagesforMarkdown/movebutton.png)
-- If there are extras, delete the button sprite from the list below.
+- If there are extras, delete the button sprite from the sprite list of blue dots on the bottom right screen.
 - If you need more buttons, right click a sprite from the list and you should be given the option to duplicate it. (click the sprite from the list and change the global costume picker variable to a new one not already taken by another sprite.
-- Now, here is the time consuming part, You will need to go to the sprites list and change all the old names to the new names of the animal parts of your new animal.
-- Then, click on the "Question" sprite, to the left of your screen, there will be a costumes tab, click it.
-- Change the text on each costume to the sprite names you chose, this will make the game ask the user the question of which sprite to click on.
+- Now, here is the time consuming part, You will need to go to the sprites list and change all the old names to the new names of the animal parts of your new animal by going to the sprite list of blue buttons on the bottom right of the screen, clicking the sprite you want to change, then right below the game preview screen, its name should appear and by clicking on it, you will be able to rename it.
+- Then, click on the "Question" sprite, to the left of your screen, there will be a costumes tab, click it on the tab on the top left.
+- Change the text on each costume to the sprite names you chose, this will make the game ask the user the question of which sprite to click on. Clicking on the big text in the costume preview screen should give you the option to change the text. Do this with every costume you need to change.
 
 
 ## Step 3: Changing the Code <br>
 ---
-- Luckly for you, if you get confused with what the code does, I commented almost all of the code to tell you what it does. Before you change anything, I would recommend that you read my comments first.
+- If you get confused with what the code does, I commented almost all of the code to tell you what it does. Before you change anything, I would recommend that you read my comments first.
 - Most of this code does NOT need to be touched, the only code you need to mess with is code that uses the variables: Points, Global CostumePicker, and Random Number.
 - Look at the amount of sprites you have, change "random number to pick a number between 1 and (the amount of sprites you have).<br>
   ![ ](ImagesforMarkdown/random.png)
