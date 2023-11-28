@@ -79,6 +79,5 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
 ![ ](ImagesforMarkdown/cow.png)
 - This is what your animal's webpage should look like when its done.
 - Thats all you need to do with the website code!
-- Go back to the github repo and press the "add files" button. Upload the whole folder to the repo and you should have the option to merge it with the old files. If that doesnt work, just add the new files and go in to delete the old ones manually. (If you do not have the option to upload files, that means your account does not have permission to upload to the repo, ask Bander to make you an editor).
-- Thats it! Thanks for helping me finish these games.
+- Send your new html files to Mr. Bander and he will uplaod it to the repo.
 - If you have any questions, ask Bander or contact me through my [Website](https://andrewscheller2006.github.io/Portfolio/contact.html).
