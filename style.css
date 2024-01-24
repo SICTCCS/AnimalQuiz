@@ -5,75 +5,49 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	background: #2771b6;
 }
-
 h1{
 	size: 40px;
 }
-
-
 .footer {
 	background-color: #4fa3e8;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	min-width: 1300px;
-	
-	
-	
 }
-
 .footer a {
 	text-decoration: none;
-	
 }
-
 .footer2 {
 	background-color: #4fa3e8;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	min-width: 1600px;
-	
-	
-	
 }
-
 .footer2 a {
 	text-decoration: none;
-	
 }
-
 .instructions {
 	margin-right: 2%;
 	margin-left: 30%;
 	background-color: #4fa3e8;
 	min-width: 300px;
 }
-
 .instructions p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 }
-
-
 .part1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	/* margin-left: 10%; */
 }
-
 h2 {
 	width: 500px;
-
-	
 }
-
-
 h3 {
 	margin-top: 3%;
 }
-
-
-
 .animals{
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
@@ -82,13 +56,7 @@ h3 {
 	padding-right: 40%; */
 	font-size: larger;
 	text-decoration: underline
-
-
 }
-
-
-
-
 /* Nav Bar */
 nav ul {
 	margin: 0;
@@ -103,8 +71,6 @@ nav ul {
 nav ul li {
 	list-style: none;
 }
-
-
 nav ul li a {
 	display: block;
 	font-family: 'Montserrat', sans-serif;
@@ -134,8 +100,6 @@ nav ul li a:hover {
 nav ul li a:hover:before {
 	width: 95%;
 }
-
-
 .section {
 	display: grid;
 	place-items: center;
@@ -160,22 +124,14 @@ nav ul li a:hover:before {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding: 25px,20px,10px,15px;
-	
-	
 }
 .logo img {
 	width: 100%;
 }
-
-
 .iconNav {
 	display: inline-block;
 	padding-right: 10px;
-	
 }
-
-/* Footer */
-
 footer{
 	display: flex;
 	color: #262626;
@@ -183,37 +139,29 @@ footer{
 	background-position: 5em;
 	background-color: #4fa3e8;
 	bottom: 400px;
-
 }
-
 footer * {
 	box-sizing: border-box;
 	border: none;
 	outline: none;
-  }
-
+}
 .leftSide {
 	padding-right: 60em;
 }
-
 .rightSide {
 	padding-left: 60em;
 }
-
 .text-center {
 	text-align: center;
-  }
-
+}
 .text-center h2 {
 	font-size: 30px;
 	padding-top: 2em;
 	place-content: center;
 }
-
 .text-right {
 	text-align: right;
 }
-
 .text-left {
 	text-align: left;
 }
