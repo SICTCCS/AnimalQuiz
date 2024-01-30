@@ -39,7 +39,7 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
 - If you need more buttons, right click a sprite from the list and you should be given the option to duplicate it (click the sprite from the list and change the global costume picker variable to a new one not already taken by another sprite).
 - Now, here is the time consuming part. You will need to go to the sprites list and change all the old names of the body part sprites to the new names of the animal parts of your new animal by going to the sprite list of blue buttons on the bottom right of the screen, clicking the sprite you want to change, then right below the game preview screen, its name should appear and by clicking on it, you will be able to rename it. You will not need to rename the question or asking sprites.
 - You will also need to go into the code for each of the sprites and make sure that the globalpicker variable corresponds to the sprites location in the sprite list. For example, if you have 35 body part sprites, then in the first sprite's code, the globalpicker variable will have a value of 1. The second sprite will have a globalpicker value of 2, and so on until the last sprite has a globalpicker value of 35. This is important because it will correspond with the list of questions. Technically, the placement of the sprites in the sprite list does not matter; only the value of the globalpicker variable does. However organizing these sprites will make it easier when you are changing the question costumes.  
-- Then, click on the "Question" sprite, to the left of your screen, there will be a costumes tab, click it on the tab on the top left.
+- Then, click on the "Question" sprite. To the left of your screen, there will be a costumes tab, click it on the tab on the top left.
 - Change the text on each costume to the sprite names you chose, this will make the game ask the user the question of which sprite to click on. Clicking on the big text in the costume preview screen should give you the option to change the text. Do this with every costume you need to change. You should have the same amount of costumes as body part sprites. The names of the costumes do not matter, only the placement of each costume in the list indicated in the top left of every costume box. You may need to delete costumes if you have less than 35 body parts. If you need to add more costumes, duplicate the last one until you have enough.
 
 
@@ -60,10 +60,10 @@ This quiz was made using scratch. All of the core mechanics of the game are all 
 
 ## Step 4: Updating the Website <br>
 ---
-- The way that the vet students access this game is through a website we made. The scratch projects are embeded into html through an iframe tag. If that sounds like a lot, don't worry, its just a lot of copying and pasting.
+- The way that the vet students access this game is through a website we made (through an html file). The scratch projects are embedded into html through an iframe tag. If that sounds like a lot, don't worry, its just a lot of copying and pasting.
 - Go to this github [Repo](https://github.com/SICTCCS/AnimalQuiz), this is where the website is being hosted.
-- Click the green "Code" button then you should have the option to copy the HTTPS url.
-- Copy it and clone the repo in your desired path in command line.Them open the folder in a IED (VS Code, Replit, etc.)
+- Click the green "Code" button then you should have the option to copy the HTTPS URL.
+- Copy it and clone the repo in your desired path in command line. Then open the folder in an IED (VS Code, Replit, etc.)
 ![ ](ImagesforMarkdown/codeimg.png)
 
 - These should be the files you are seeing.
