@@ -166,3 +166,11 @@ footer * {
 .text-left {
 	text-align: left;
 }
+
+#title{
+	text-align: center;
+	font-size: 5em;
+	padding: 5em;
+	z-index: 9999;
+	width: 100%;
+}
