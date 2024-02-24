@@ -169,8 +169,10 @@ footer * {
 
 #title{
 	text-align: center;
-	font-size: 5em;
-	padding: 5em;
+	font-size: 5em;	
 	z-index: 9999;
-	width: 100%;
+}
+
+iframe{
+ position: relative;
 }
