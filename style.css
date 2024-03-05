@@ -179,38 +179,3 @@ footer * {
 iframe{
  position: relative;
 }
-
-.dropdown{
-	display:block;
-	position: relative;
-	
-}
-
-.dropdownContent{
-	display: none;
-	position: absolute;
-	width: 100%;
-	overflow: auto;
-	
-	background-color: #353434;
-}
-
-.dropdown:hover .dropdownContent{
-	display: block;
-	
-}
-
-.dropdownContent a{
-	
-	display: block;
-	color:#FFFFFF;
-	padding: 20px;
-	text-decoration: none;
-	z-index: 0;
-	text-align: center;
-	
-}
-
-.dropdownContent a:hover{
-	color: #2b2626;
-}
