@@ -9,17 +9,21 @@ h1{
 	size: 40px;
 }
 .footer {
-	background-color: #4fa3e8;
+	background-color: #16324F;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	min-width: 1300px;
 	text-align: center;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
 }
 .footer a {
 	text-decoration: none;
+    color: white;
 }
+
 .footer2 {
-	background-color: #4fa3e8;
+	background-color: #16324F;
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	min-width: 1600px;
@@ -32,19 +36,33 @@ h1{
 	margin-left: 30%;
 	background-color: #4fa3e8; */
 	min-width: 300px;
+	margin-top: 3%;
+	background-color: #A8D5F2;
+	color: #16324F;
+	border-radius: 10px;
+	padding: 15px 25px;
+	
 }
 .instructions p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
+	justify-content: center;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
+	
 }
 .part1 {
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	/* margin-left: 10%; */
+	margin-left: 2.5%;
+	
 }
 h2 {
 	width: 500px;
+	background-color: #16324F;
+	color: #FFFFFF;
+	border-radius: 15px;
+	padding: 15px 30px;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
 }
 h3 {
 	margin-top: 3%;
@@ -118,6 +136,7 @@ nav ul li a:hover:before {
 .box-area {
 	width: 75%;
 	text-align: center;
+	
 }
 .logo {
 	width: 278px;
@@ -126,7 +145,8 @@ nav ul li a:hover:before {
 	overflow: hidden;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding: 25px,20px,10px,15px;
+	margin: 0;
+	
 	
 }
 .logo img {
@@ -215,4 +235,11 @@ iframe{
 
 .dropdownContent a:hover{
 	color: #2b2626;
+}
+
+.flexbox{
+ display: flex;
+    justify-content: center;  
+    margin: 0;
+	
 }
