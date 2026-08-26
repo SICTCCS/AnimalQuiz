@@ -1,7 +1,5 @@
 
 body {
-	margin: 0;
-	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 	background: #2771b6;
 }
@@ -32,22 +30,19 @@ h1{
 	text-decoration: none;
 }
 .instructions {
-	/* margin-right: 2%;
-	margin-left: 30%;
-	background-color: #4fa3e8; */
 	min-width: 300px;
-	margin-top: 3%;
 	background-color: #A8D5F2;
 	color: #16324F;
 	border-radius: 10px;
 	padding: 15px 25px;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
 	
 }
 .instructions p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	justify-content: center;
-	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
+	
 	
 }
 .part1 {
@@ -142,10 +137,8 @@ nav ul li a:hover:before {
 	width: 278px;
 	height: 117px;
 	border-radius: 25%;
-	overflow: hidden;
 	padding-top: 20px;
-	padding-bottom: 20px;
-	margin: 0;
+
 	
 	
 }
@@ -198,6 +191,7 @@ footer * {
 
 iframe{
  position: relative;
+ margin-left:200px;
 }
 
 .dropdown{
@@ -242,4 +236,49 @@ iframe{
     justify-content: center;  
     margin: 0;
 	
+}
+
+img{
+	transition: transform 0.15s ease;
+    cursor: pointer;
+
+}
+
+img:hover {
+    transform: scale(1.08);
+
+}
+
+img:active {
+    transform: scale(0.95);
+
+}
+
+#title { 
+	margin-left:200px;
+	background-color: #16324F;
+	color: #FFFFFF;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
+	border-radius: 15px;
+	padding: 15px 30px;
+}
+
+.game_instructions {
+	min-width: 300px;
+	background-color: #A8D5F2;
+	color: #16324F;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
+	margin-left:200px;
+	
+}
+.game_instructions p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	justify-content: center;
+}
+
+#animal {
+margin-left:200px;
 }
