@@ -1,8 +1,55 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: #2771b6;
+      background: radial-gradient(
+        circle at center,
+        #3D91A0 0%,
+        #2F7F8F 50%,
+        #173B4F 100%
+    );
+
+    min-height: 100vh;
 }
+
+body::before {
+    content: "";
+    position: fixed;
+
+    width: 400px;
+    height: 400px;
+
+    background-image: url("Images/PawPrint.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    opacity: 0.15;
+    top: 100px;
+    left: -150px;
+
+    z-index: -1;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+
+    width: 500px;
+    height: 500px;
+
+   background-image: url("Images/PawPrint.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    opacity: 0.15;
+    bottom: -200px;
+    right: -150px;
+
+    z-index: -1;
+}
+
+
 h1{
 	size: 40px;
 }
@@ -13,6 +60,7 @@ h1{
 	min-width: 1300px;
 	text-align: center;
 	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
+	
 }
 .footer a {
 	text-decoration: none;
@@ -31,8 +79,8 @@ h1{
 }
 .instructions {
 	min-width: 300px;
-	background-color: #A8D5F2;
-	color: #16324F;
+	background-color: rgba(190, 230, 230, 0.8);
+	color: #173B4F;
 	border-radius: 10px;
 	padding: 15px 25px;
 	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
@@ -281,4 +329,27 @@ img:active {
 
 #animal {
 margin-left:200px;
+}
+
+.startButton {
+    background-color: #55A86C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 55px;
+    font-size: 28px;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+	cursor: pointer;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.startButton:hover {
+   background-color: #68BE7D;
+    transform: scale(1.08);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.startButton:active {
+    transform: scale(0.97);
 }
