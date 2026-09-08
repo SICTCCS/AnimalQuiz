@@ -353,3 +353,21 @@ margin-left:200px;
 .startButton:active {
     transform: scale(0.97);
 }
+
+.transition-curtain {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #16324F;
+
+    z-index: 99999;
+
+    transform: translateX(-100%);
+    will-change: transform;
+
+    pointer-events: none;
+}

@@ -5,40 +5,45 @@
     <title>Mrs. Schillinger's Animal Games</title>
     <meta charset="utf-8">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <script src="animalScript.js"></script>
 </head>
-<body>
-    <nav>
-        <ul>
-            <div class="logo"><a href="index.html"><img src="Images/farmLogo.png" alt=""></a></div>
-            <li><a id="cat">   Cat</a></li>
-            <li><a id="cow">   Cow</a></li>
-            <li><a id="dog">  Dog</a></li>
-            <li><a id="goat">   Goat</a></li>
-            <li><a id="horse">   Horse</a></li>
-            <li><a id="pig">   Pig</a></li>
-            <li><a id="sheep">   Sheep</a></li>
-        </ul>
-    </nav>
-    <div class="wrapper">
-        <!-- <div class="text-center"><h2>Veterinary Science Animal Anatomy Cow</h2></div> -->
-        <div class="section">
-            <div class="box-area">
-                <div class = "part1">
-                    <div id = "game">
-                        <h1 id="title">Choose an Animal</h1>
-                        <iframe src="" allowtransparency="true" width="727.5" height="603" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<body data-barba="wrapper">
+    <div class="transition-curtain"></div>
+    <main data-barba="container"></main>
+        <nav>
+            <ul>
+                <div class="logo"><a href="index.html"><img src="Images/farmLogo.png" alt=""></a></div>
+                <li><a id="cat">   Cat</a></li>
+                <li><a id="cow">   Cow</a></li>
+                <li><a id="dog">  Dog</a></li>
+                <li><a id="goat">   Goat</a></li>
+                <li><a id="horse">   Horse</a></li>
+                <li><a id="pig">   Pig</a></li>
+                <li><a id="sheep">   Sheep</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+            <!-- <div class="text-center"><h2>Veterinary Science Animal Anatomy Cow</h2></div> -->
+            <div class="section">
+                <div class="box-area">
+                    <div class = "part1">
+                        <div id = "game">
+                            <h1 id="title">Choose an Animal</h1>
+                            <iframe src="" allowtransparency="true" width="727.5" height="603" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                        </div>
                     </div>
-                </div>
-                <div class = "footer" id="animal">
-                    <a target="_blank" rel="noopener noreferrer"  href="https://sictc.evscschools.com/">
-                    <p>Maintained & Built by SICTC Computer Science Software Development</p></a> 
+                    <div class = "footer" id="animal">
+                        <a target="_blank" rel="noopener noreferrer"  href="https://sictc.evscschools.com/">
+                        <p>Maintained & Built by SICTC Computer Science Software Development</p></a> 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </main>
 </body>
+
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="Exp/animalScriptTwo.js"></script>
 <script src="animalScript.js"></script>
 </html>
 

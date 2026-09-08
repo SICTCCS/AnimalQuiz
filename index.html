@@ -7,38 +7,37 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 </head>
 <body data-barba="wrapper">
-   
-       
-                    <!-- <li><a href="animals.html"id="cat" >   Cat</a></li>
-                    <li><a href="animals.html"id="cow" >   Cow</a></li>
-                    <li><a href="animals.html"id="dog" >  Dog</a></li>
-                    <li><a href="animals.html"id="goat" >   Goat</a></li>
-                    <li><a href="animals.html"id="horse" >   Horse</a></li>
-                    <li><a href="animals.html"id="pig" >   Pig</a></li>
-                    <li><a href="animals.html"id="sheep" >   Sheep</a></li> -->
-                
+     <div class="transition-curtain"></div>
+    <main data-barba="container">
+  
         
  
-    <div class="wrapper">
-        <div class="section">
-            <div class="box-area">
-                <div class = "part1">
-                    <h2>Veterinary Science <br> Animal Anatomy</h2>
+        <div class="wrapper">
+            <div class="section">
+                <div class="box-area">
+                    <div class = "part1">
+                        <h2>Veterinary Science <br> Animal Anatomy</h2>
+                    </div>
+                </div>
+            <div class="flexbox">
+                <a href="animals.html">
+                    <button class="startButton">Start</button>
+                </a>
+            </div> 
+                <div class = "instructions">
+                    <h1>Click the Start button to begin!</h1>    
+                </div>
+                <div class = "footer">
+                    <a target="_blank" rel="noopener noreferrer"  href="https://sictc.evscschools.com/">
+                    <p>Maintained & Built by SICTC Computer Science Software Development</p></a> 
                 </div>
             </div>
-        <div class="flexbox">
-           <button class="startButton" onclick="location.href='animals.html'">Start</button>
-        </div> 
-            <div class = "instructions">
-                <h1>Click the Start button to begin!</h1>    
-            </div>
-            <div class = "footer">
-                <a target="_blank" rel="noopener noreferrer"  href="https://sictc.evscschools.com/">
-                <p>Maintained & Built by SICTC Computer Science Software Development</p></a> 
-            </div>
         </div>
-    </div>
+    </main>
 </body>
 
-<script src="animalScript.js"></script>
-</html>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="Exp/animalScriptTwo.js"></script>
+    <script src="animalScript.js"></script>
+    </html>
