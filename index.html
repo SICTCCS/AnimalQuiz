@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css" /> 
-    <title>Mrs. Schillinger's Animal Games</title>
-    <meta charset="utf-8">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<title class="title">Mrs. Schillinger's Animal Games</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body data-barba="wrapper">
-     <div class="transition-curtain"></div>
-    <main data-barba="container">
-  
-        
- 
-        <div class="wrapper">
-            <div class="section">
-                <div class="box-area">
-                    <div class = "part1">
-                        <h2>Veterinary Science <br> Animal Anatomy</h2>
-                    </div>
-                </div>
-            <div class="flexbox">
-                <a href="animals.html">
-                    <button class="startButton">Start</button>
-                </a>
-            </div> 
-                <div class = "footer">
-                    <a target="_blank" rel="noopener noreferrer"  href="https://sictc.evscschools.com/">
-                    <p>Maintained & Built by SICTC Computer Science Software Development</p></a> 
-                </div>
-            </div>
-        </div>
-    </main>
+	<!-- Page transition -->
+	<div class="transition-curtain"></div>
+
+	<main data-barba="container">
+		<!-- Main title -->
+		<div class="wrapper">
+			<div class="section">
+				<div class="box-area">
+					<div class="part1">
+						<h2>Veterinary Science <br> Animal Anatomy</h2>
+					</div>
+					<p class="subtitle">Explore animal anatomy through interactive games!</p>
+				</div>
+
+				<!-- Start button -->
+				<div class="flexbox">
+					<a href="animals.html">
+						<button class="startButton">Start</button>
+					</a>
+				</div>
+
+				<!-- Footer -->
+				<div class="footer">
+					<a href="https://sictc.evscschools.com/" target="_blank" rel="noopener noreferrer">
+						<p>Maintained &amp; Built by SICTC Computer Science Software Development</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- Page transition scripts -->
+	<script src="https://unpkg.com/@barba/core"></script>
+	<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+	<script src="animalScript.js"></script>
+
+	<!-- Animal background images -->
+	<img src="images/cow.png" class="animal-bg cow-bg" alt="">
+	<img src="images/cat.png" class="animal-bg cat-bg" alt="">
+
 </body>
 
-    <script src="https://unpkg.com/@barba/core"></script>
-    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
-    <script src="Exp/animalScriptTwo.js"></script>
-    <script src="Exp/animalScriptThree.js"></script>
-    <script src="animalScript.js"></script>
-    </html>
+</html>
