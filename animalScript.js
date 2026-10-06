@@ -22,6 +22,23 @@ function attachAnimalHandlers() {
 	const bird = document.getElementById("bird");
 	const sheep = document.getElementById("sheep");
 	const tooth = document.getElementById("tooth");
+	const dogtooth = document.getElementById("dogtooth");
+	const haircellone = document.getElementById("haircell1");
+	const cellLayers = document.getElementById("cellLayers");
+	const cellLayersTwo = document.getElementById("cellLayersTwo");
+	const cellDetail = document.getElementById("cellDetail");
+	const haircellTwo = document.getElementById("haircellTwo");
+	const externalDogTeeth = document.getElementById("externalDogTeeth");
+	const externalDogSkeleton = document.getElementById("externalDogSkeleton");
+	const boneAnatomy = document.getElementById("boneAnatomy");
+	const boneAnatomyDetail = document.getElementById("boneAnatomyDetail");
+	const bonegram = document.getElementById("bonegram");
+	const muscle = document.getElementById("muscle");
+	const tissueOne = document.getElementById("tissueOne");
+	const tissueTwo = document.getElementById("tissueTwo");
+	const tissueThree = document.getElementById("tissueThree");
+	const dogMuscle = document.getElementById("dogMuscle");
+	
 
 	// Only connect buttons that are on the page
 	if (cat) cat.addEventListener("click", () => setAnimal("Cat", "https://scratch.mit.edu/projects/958208184/embed"));
@@ -35,6 +52,23 @@ function attachAnimalHandlers() {
 	if (bird) bird.addEventListener("click", () => setAnimal("Bird", "https://scratch.mit.edu/projects/1376020919/embed"));
 	if (sheep) sheep.addEventListener("click", () => setAnimal("Sheep", "https://scratch.mit.edu/projects/957935575/embed"));
 	if (tooth) tooth.addEventListener("click", () => setAnimal("Tooth", "https://scratch.mit.edu/projects/1369683004/embed"));
+	if (dogtooth) dogtooth.addEventListener("click", () => setAnimal("Dog Tooth", "https://scratch.mit.edu/projects/1379923573/embed"));
+	if (haircellone) haircellone.addEventListener("click", () => setAnimal("Hair Cell One", "https://scratch.mit.edu/projects/1381450760/embed"));
+	if (cellLayers) cellLayers.addEventListener("click", () => setAnimal("Cell Layers", "https://scratch.mit.edu/projects/1382628131/embed"));
+	if (cellLayersTwo) cellLayersTwo.addEventListener("click", () => setAnimal("Cell Layers Part 2", "https://scratch.mit.edu/projects/1382631206/embed"));
+	if (cellDetail) cellDetail.addEventListener("click", () => setAnimal("Cell Detail", "https://scratch.mit.edu/projects/1382647716/embed"));
+	if (haircellTwo) haircellTwo.addEventListener("click", () => setAnimal("Hair Cell Two", "https://scratch.mit.edu/projects/1383863532/embed"));
+	if (externalDogTeeth) externalDogTeeth.addEventListener("click", () => setAnimal("Dog Teeth", "https://scratch.mit.edu/projects/1384689827/embed"));
+	if (externalDogSkeleton) externalDogSkeleton.addEventListener("click", () => setAnimal("Dog Skeleton", "https://scratch.mit.edu/projects/1385057370/embed"));
+	if (boneAnatomy) boneAnatomy.addEventListener("click", () => setAnimal("Bone Anatomy", "https://scratch.mit.edu/projects/1386722833/embed"));
+	if (boneAnatomyDetail) boneAnatomyDetail.addEventListener("click", () => setAnimal("Bone Anatomy Detail", "https://scratch.mit.edu/projects/1387143822/embed"));
+	if (bonegram) bonegram.addEventListener("click", () => setAnimal("Bonegram", "https://scratch.mit.edu/projects/1388379826/embed"));
+	if (muscle) muscle.addEventListener("click", () => setAnimal("Muscle", "https://scratch.mit.edu/projects/1384672497/embed"));
+	if (tissueOne) tissueOne.addEventListener("click", () => setAnimal("Tissue One", "https://scratch.mit.edu/projects/1384680661/embed"));
+	if (tissueTwo) tissueTwo.addEventListener("click", () => setAnimal("Tissue Two", "https://scratch.mit.edu/projects/1384683004/embed"));
+	if (tissueThree) tissueThree.addEventListener("click", () => setAnimal("Tissue Three", "https://scratch.mit.edu/projects/1384684282/embed"));
+	if (dogMuscle) dogMuscle.addEventListener("click", () => setAnimal("Dog Muscle", "https://scratch.mit.edu/projects/1388762574/embed"));
+
 }
 
 // Wait until the page is ready
