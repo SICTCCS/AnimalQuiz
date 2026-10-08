@@ -534,8 +534,12 @@ footer * {
 	transform: translateX(-100%);
 	will-change: transform;
 	pointer-events: none;
+	/* Keep dropdowns hidden while Barba changes pages */
 }
-
+/* Keep dropdowns hidden while Barba changes pages */
+html.is-transitioning nav {
+    visibility: hidden;
+}
 
 /* =========================
    CATEGORY DROPDOWN FIT

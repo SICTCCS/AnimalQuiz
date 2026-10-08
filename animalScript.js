@@ -80,76 +80,75 @@ if (document.readyState === "loading") {
 
 
 // Find every dropdown on the page
-const dropdowns = document.querySelectorAll(".dropdown");
+function attachDropdownHandlers() {
 
-dropdowns.forEach(dropdown => {
-    const select = dropdown.querySelector(".select");
-    const caret = dropdown.querySelector(".caret");
-    const menu = dropdown.querySelector(".menu");
-    const options = dropdown.querySelectorAll(".menu li");
-    const selected = dropdown.querySelector(".selected");
+    const dropdowns = document.querySelectorAll(".dropdown");
 
-    // Open or close the dropdown
-    select.addEventListener("click", () => {
+    dropdowns.forEach(dropdown => {
+        const select = dropdown.querySelector(".select");
+        const caret = dropdown.querySelector(".caret");
+        const menu = dropdown.querySelector(".menu");
+        const options = dropdown.querySelectorAll(".menu li");
 
-        // Close all other dropdowns
-        dropdowns.forEach(otherDropdown => {
-            if (otherDropdown !== dropdown) {
-                otherDropdown.querySelector(".select").classList.remove("select-clicked");
-                otherDropdown.querySelector(".caret").classList.remove("caret-rotate");
-                otherDropdown.querySelector(".menu").classList.remove("menu-open");
-            }
+        select.addEventListener("click", () => {
+
+            dropdowns.forEach(otherDropdown => {
+                if (otherDropdown !== dropdown) {
+                    otherDropdown.querySelector(".select").classList.remove("select-clicked");
+                    otherDropdown.querySelector(".caret").classList.remove("caret-rotate");
+                    otherDropdown.querySelector(".menu").classList.remove("menu-open");
+                }
+            });
+
+            select.classList.toggle("select-clicked");
+            caret.classList.toggle("caret-rotate");
+            menu.classList.toggle("menu-open");
         });
 
-        // Open this dropdown
-        select.classList.toggle("select-clicked");
-        caret.classList.toggle("caret-rotate");
-        menu.classList.toggle("menu-open");
-    });
+        options.forEach(option => {
+            option.addEventListener("click", () => {
+                select.classList.remove("select-clicked");
+                caret.classList.remove("caret-rotate");
+                menu.classList.remove("menu-open");
 
-    // Change the selected option
-    options.forEach(option => {
-        option.addEventListener("click", () => {
-            // selected.innerText = option.innerText;
-
-            select.classList.remove("select-clicked");
-            caret.classList.remove("caret-rotate");
-            menu.classList.remove("menu-open");
-
-            options.forEach(option => option.classList.remove("active"));
-            option.classList.add("active");
+                options.forEach(option => option.classList.remove("active"));
+                option.classList.add("active");
+            });
         });
     });
-});
-
+}
 // Controls the curtain page transition
 barba.init({
-	transitions: [
-		{
-			name: "curtain-transition",
+    transitions: [
+        {
+            name: "curtain-transition",
 
-			// Cover the old page
-			async leave() {
-				await gsap.to(".transition-curtain", {
-					xPercent: 100,
-					duration: 0.6,
-					ease: "power2.inOut"
-				});
-			},
+            async leave() {
+                await gsap.to(".transition-curtain", {
+                    xPercent: 100,
+                    duration: 0.6,
+                    ease: "power2.inOut"
+                });
 
-			// Reveal the new page
-			async enter() {
-				await gsap.to(".transition-curtain", {
-					xPercent: 200,
-					duration: 0.6,
-					ease: "power2.inOut"
-				});
+                document.documentElement.classList.add("is-transitioning");
+            },
 
-				gsap.set(".transition-curtain", {
-					xPercent: 0
-				});
-			}
-		}
-	]
+            async enter() {
+                await gsap.to(".transition-curtain", {
+                    xPercent: 200,
+                    duration: 0.6,
+                    ease: "power2.inOut"
+                });
+
+                gsap.set(".transition-curtain", {
+                    xPercent: 0
+                });
+
+                attachAnimalHandlers();
+                attachDropdownHandlers();
+
+                document.documentElement.classList.remove("is-transitioning");
+            }
+        }
+    ]
 });
-
